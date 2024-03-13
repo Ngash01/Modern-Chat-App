@@ -19,7 +19,7 @@ import qs from "query-string"
  export const DeleteMessageModal = () => {
     const {isOpen, onClose, type, data}  = useModal()
     const params = useParams()
-    const {apiUrl, query}  = data
+    const {apiUrl, query, }  = data
     const [isLoading, setIsLoading] = useState(false)
     const [isMounted, setIsMounted] = useState(false)
 
