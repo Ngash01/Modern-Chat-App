@@ -41,7 +41,7 @@ export const NavigationSideBar = async()=>{
             </ScrollArea>
             <div className="pb-3 mt-auto flex flex-col items-center gap-3">
                 <ModeToggle/>
-                <UserButton  appearance={{elements: {avatarBox: "h-[48px] w-[48px]"}}}/>
+                <UserButton  appearance={{elements: {avatarBox: "h-[48px] w-[48px]"}}} afterSignOutUrl="/"/>
             </div>
         </div>
     )
