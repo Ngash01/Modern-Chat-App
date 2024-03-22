@@ -5,7 +5,7 @@ import React from 'react'
 
 interface serverIdprops{
   params: {
-    serverId: String
+    serverId: string
   }
 }
 

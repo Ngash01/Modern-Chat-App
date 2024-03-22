@@ -8,7 +8,7 @@ import React from 'react'
 
 interface channelIdPageProps{
     serverId: string,
-    channelId: string
+    channelId: string,
 }
 
 const  ChannelIdPage = async({params}:{params:channelIdPageProps}) => {
@@ -33,7 +33,7 @@ const  ChannelIdPage = async({params}:{params:channelIdPageProps}) => {
     })
 
     if(!channel || !member){
-        redirect("/")
+        return redirect("/")
     }
 
   return (

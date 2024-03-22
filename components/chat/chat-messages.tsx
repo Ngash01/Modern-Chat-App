@@ -10,7 +10,7 @@ import { format } from "date-fns";
 
 interface ChatMessagesProps{
     name:string;
-    member: string,
+    member: Member,
     chatId: string,
     apiUrl:string,
     socketUrl:string,
