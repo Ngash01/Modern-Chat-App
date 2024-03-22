@@ -71,7 +71,7 @@ import { ChannelType } from "@prisma/client";
                 //         serverId: params?.serverId
                 //     }
                 // })
-                const res = await axios.post(`/api/channels/${params.serverId}`, {name: values.title})
+                const res = await axios.post(`/api/channels/${params?.serverId}`, {name: values.title})
 
                 console.log("created channel", res)
 
